@@ -1,0 +1,15 @@
+{
+  "name": "debugging-sos-lldb-via-core",
+  "enabled": true,
+  "requiresSdk": true,
+  "version": "3.0",
+  "versionSpecific": false,
+  "type": "bash",
+  "cleanup": true,
+  "ignoredRIDs": [
+     "linux-arm" // lldb sos relies on features not implemented on arm
+  ],
+  "skipWhen": [
+    "runtime=mono" // lldb sos relies on coreclr features
+  ]
+}
