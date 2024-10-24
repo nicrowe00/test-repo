@@ -1,0 +1,7 @@
+is_global = true
+build_property.RootNamespace = lib
+build_property.ProjectDir = /home/nicrowe/dotnet-regular-tests/host-probes-rid-assets-legacy/lib/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 
